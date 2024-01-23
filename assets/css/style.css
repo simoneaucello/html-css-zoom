@@ -48,7 +48,7 @@ header ul a{
 /* main  */
 
 main{
-  height: calc(100vh - 100px);
+  height: calc(100vh - 90px);
   overflow: auto;
   padding-top: 60px;
 }
