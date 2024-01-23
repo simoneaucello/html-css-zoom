@@ -28,8 +28,7 @@ header ul{
 }
 
 header ul li{
-  padding: 0 5px;
- 
+  padding: 0 5px; 
 }
 
 header ul a{
@@ -53,11 +52,6 @@ main{
 }
 
 
-.debug{
-  /* background-color: blueviolet; */
-
-}
-
 .flexed{
   display: flex;
 }
@@ -70,8 +64,6 @@ main{
 
 img{
   max-width: 100%;
-  /* padding-top: 5px;
-  padding-bottom: 10px; */
 }
 
 .icons{
@@ -101,4 +93,51 @@ img{
 footer{
   background-color: #272727;
   height: 90px;
+  
+}
+
+.bottom-menu{
+color: white;
+}
+
+.bot-flex{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  
+}
+
+.menu li{
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.menu li a{
+  text-align: center;
+  display: block;
+  font-size: 1.8rem; 
+  color: white;
+}
+
+.fa-chevron-up{
+  vertical-align:top;
+  line-height: 50px;
+}
+
+
+footer nav ul li{
+  color: white;
+}
+
+.end-meet{
+  color: red;
+  background-color: #4b4b4b;
+  line-height: 70px;
+  padding: 10px;
+
 }
